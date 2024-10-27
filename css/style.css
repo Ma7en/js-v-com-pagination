@@ -1,0 +1,305 @@
+
+
+/* font google */
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start pag all */
+.pag {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.pag > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 1 */
+.pag-1 {
+    background-image: linear-gradient(to top right, #cc64a2, #5c3075);
+    font-family: monospace;
+    line-height: 20px;
+}
+
+.pag-1 .container .list {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+}
+
+.pag-1 .container .list .item {
+    transition: var(--main-transition);
+}
+
+.pag-1 .container .list .item .img img {
+    height: 200px;
+    transition: var(--main-transition);
+}
+
+.pag-1 .container .list .item .img {
+    background-image: linear-gradient(to top right, #d89cd1, #d499d4);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.pag-1 .container .list .item .content {
+    background-color: #ffffff24;
+    border-radius: 30px;
+    padding: 50px 30px;
+    transform: translate(0, -50px);
+    backdrop-filter: blur(20px);
+    color: #fff;
+}
+
+.pag-1 .container .list .item .title {
+    font-size: x-large;
+}
+
+.pag-1 .container .list .item .content .des {
+    opacity: .7;
+    margin: 10px 0;
+}
+
+.pag-1 .container .list .item .content .price {
+    font-size: large;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.pag-1 .container .list .item .add {
+    background-color: #b192ef;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+}
+
+.pag-1 .container .list .item:hover img {
+    transform: translate(0, -50px);
+}
+
+.pag-1 .container .listPage {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.pag-1 .container .listPage li {
+    background-color: #ffffffdb;
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 10px;
+    /* align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; */
+}
+.pag-1 .container .listPage .active {
+    background-color: #b192ef;
+    color: #fff;
+}
+
+/* end pag 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 2 */
+
+
+
+/* end pag 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 3 */
+
+
+
+/* end pag 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 4 */
+
+
+
+/* end pag 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 5 */
+
+
+
+/* end pag 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 6 */
+
+
+
+/* end pag 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 7 */
+
+
+
+/* end pag 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 8 */
+
+
+
+/* end pag 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 9 */
+
+
+
+/* end pag 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 10 */
+
+
+
+/* end pag 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start pag 11 */
+
+
+
+/* end pag 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
